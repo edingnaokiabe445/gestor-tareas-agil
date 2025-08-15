@@ -39,3 +39,7 @@ button {
     padding: 5px;
     /* Optional: Consider adding a hover effect for better user feedback */
 }
+
+button:hover {
+    background-color: #d1d1d1; /* Change background color on hover */
+}
