@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas Ágil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestor de Tareas Ágil</h1>
+    <div class="kanban">
+        <div class="column" id="todo">
+            <h2>Por Hacer</h2>
+            <div class="task-container"></div>
+            <input type="text" id="new-task" placeholder="Nueva tarea...">
+            <button id="add-task">Añadir tarea</button>
+        </div>
+        <div class="column" id="in-progress">
+            <h2>En Proceso</h2>
+            <div class="task-container"></div>
+        </div>
+        <div class="column" id="completed">
+            <h2>Completado</h2>
+            <div class="task-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
