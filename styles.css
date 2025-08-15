@@ -19,7 +19,7 @@ body {
 }
 
 .task-container {
-    min-height: 50px;
+    min-height: 50px; /* Ensures each task container has a minimum height */
     margin: 10px 0;
 }
 
@@ -27,7 +27,7 @@ body {
     background: #e2e2e2;
     margin: 5px 0;
     padding: 10px;
-    cursor: pointer;
+    cursor: pointer; /* Indicate that the task can be interacted with */
 }
 
 input {
@@ -37,4 +37,5 @@ input {
 
 button {
     padding: 5px;
+    /* Optional: Consider adding a hover effect for better user feedback */
 }
